@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navImage{
+height: 135px;
+width: 135px;
+margin-left: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.listitem
+{
+    display: inline-block;
+    margin: 20px 10px;
+
+}
+.list{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list:hover{
+    color: red;
+}
+.secondname{
+    color: orange;
+}
+.name{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.titleh1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.download{
+    background-color: black;
+    color: azure;
+    padding: 10px 20px ;
+    margin: 30px 0px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover{
+bottom: 10%;
+}
+.images:hover #shape{
+    bottom: 20%;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.aboutheading{
+    text-align: center;
+}
+.intro{
+    color: green;
+    font-size: 20px;
+}
+.about2{
+    font-size: 32px;
+}
+.aboutimage img{
+    width: 80%;
+}
+.aboutcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.text{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.infospan{
+    margin-left: 20px;
+}
+.skillheading{
+    margin-top: 8%;
+    text-align: center;
+}
+.skills{
+    margin: 18% 8% 0px 8%;
+}
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.progresssbar{
+    margin-left: 70px;
+    margin-left: 40px;
+}
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.basebar{
+    background-color: black;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orangebar{
+    background-color: orange;
+    width: 95%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orangebar1{
+    background-color: orange;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orangebar2{
+    background-color: orange;
+    width: 85%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orangebar3{
+    background-color: orange;
+    width: 90%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.contactheading{
+    margin-top: 50px;
+    text-align: center;
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right, yellow,red)
+}
+.icons:hover i{
+    color: white;
+    animation: shake 0.75s;
+
+}
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+}
+.intro3{
+    color: green;
+}
+.iconset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    
+}
+.icons{
+    margin: 0px 10px;
+    font-size: 30px;
+}
+.icons:hover{
+    color: bisque;
+    animation: shake;
+}
+.bottomfooter{
+    margin-top: 50px;
+    text-align: center;
+}
+.uparrow{
+    height: 50px;
+    width: 50px;
+    float: right;
+    font-size: 30px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,yellow,red);
+    margin: 0px 10px 50px 0px;
+    padding-top: 10px;
+}
+.uparrow:hover{
+    color: white;
+    animation: shake 0.55s;
+    animation-iteration-count: infinite;
+    
+}
